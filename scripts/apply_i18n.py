@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TITLE_EN = "Church of the Passover Angel"
-TITLE_ZH = "逾越节天使教会"
+TITLE_ZH = "逾越天使教会"
 SCRIPT_TAG = '<script src="js/i18n.js"></script>'
 
 
@@ -116,7 +116,7 @@ def patch_footer(html: str) -> str:
     )
     copy = wrap_pair(
         "Church of the Passover Angel. All right reserved",
-        "逾越节天使教会。保留一切权利",
+        "逾越天使教会。保留一切权利",
         True,
     )
     html = re.sub(
@@ -234,16 +234,16 @@ def patch_index(html: str) -> str:
 def patch_about(html: str) -> str:
     html = html.replace(
         "<h2 class=\"section-title\">About The Church of the Passover Angel</h2>",
-        f"<h2 class=\"section-title\">{wrap_pair('About The Church of the Passover Angel', '关于逾越节天使教会')}</h2>",
+        f"<h2 class=\"section-title\">{wrap_pair('About The Church of the Passover Angel', '关于逾越天使教会')}</h2>",
     )
     blocks = [
         (
             "We are a small, non-denominational, fundamentalist Church devoted to total submission to the will of God and his herald, the Passover Angel.",
-            "我们是一座小型、非宗派、基要主义的教会，全然顺服上帝的旨意及其使者逾越节天使。",
+            "我们是一座小型、非宗派、基要主义的教会，全然顺服上帝的旨意及其使者逾越天使。",
         ),
         (
             "We believe that the End Times are near. Soon God will return to the world, through his messenger the Passover Angel, in order to cleanse the world of sin and restore righteousness through the Rapture.",
-            "我们相信末世已近。上帝不久将借其使者逾越节天使重返世界，洁净罪恶，并通过被提恢复公义。",
+            "我们相信末世已近。上帝不久将借其使者逾越天使重返世界，洁净罪恶，并通过被提恢复公义。",
         ),
         (
             "Many churches will tell you that the Rapture was foretold by John in the Book of Revelations, but they are deceived. Only those who follow the true words of God’s Angel will be redeemed, and so we must all repent if we hope to be saved.",
@@ -257,7 +257,7 @@ def patch_about(html: str) -> str:
     for en, zh in blocks:
         html = html.replace(f"<p>\n                                        {en}\n                                    </p>", wrap_block(f"<p>\n                                        {en}\n                                    </p>", f"<p>\n                                        {zh}\n                                    </p>"))
     donate_en = 'Donate to our Church now and receive <a href="book.html"><u>The Book of the Passover Angel</u></a> to learn more.  Redeem yourself now before our Lord, before it is too late!'
-    donate_zh = '请立即向本教会捐助，并领取<a href="book.html"><u>《逾越节天使之书》</u></a>以了解更多。趁还来得及，在主面前赎回自己！'
+    donate_zh = '请立即向本教会捐助，并领取<a href="book.html"><u>《逾越天使之书》</u></a>以了解更多。趁还来得及，在主面前赎回自己！'
     html = html.replace(
         f"<p>\n                                        {donate_en}\n                                    </p>",
         wrap_block(f"<p>\n                                        {donate_en}\n                                    </p>", f"<p>\n                                        {donate_zh}\n                                    </p>"),
@@ -268,7 +268,7 @@ def patch_about(html: str) -> str:
 def patch_book(html: str) -> str:
     html = html.replace(
         "<h2 class=\"section-title\">The Book of the Passover Angel</h2>",
-        f"<h2 class=\"section-title\">{wrap_pair('The Book of the Passover Angel', '《逾越节天使之书》')}</h2>",
+        f"<h2 class=\"section-title\">{wrap_pair('The Book of the Passover Angel', '《逾越天使之书》')}</h2>",
     )
     p1_en = "The Rapture is soon come. Only those who repent before Our Lord will be redeemed. But do not be fooled by the churches preaching the deception of John. The world will be redeemed without Revelation. Sin will be removed from the earth as it was in Egypt before the Exodus. When the stars are right, the Pharaoh will once again pay! Donate to our Church below and we will send you this beautiful book, outlining the truth in the Scripture as revealed to our Reverend Balfour by God’s Own Angel."
     p1_zh = "被提即将来临。唯有在主面前悔改者才能得赎。勿被那些传讲约翰迷惑的教会所欺。世界将在无需《启示录》的情况下得赎。罪恶将如出埃及前在埃及地那样从地上除去。当星辰归位，法老将再次付出代价！请向本教会捐助，我们将寄赠此书，其中载有上帝的天使向鲍尔弗牧师所启示的圣经真理。"

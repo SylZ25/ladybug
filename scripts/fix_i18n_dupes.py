@@ -36,12 +36,12 @@ ABOUT_NEWS = """                                <div class="news">
                                     <div class="lang-en"><p>
                                         We are a small, non-denominational, fundamentalist Church devoted to total submission to the will of God and his herald, the Passover Angel.
                                     </p></div><div class="lang-zh"><p>
-                                        我们是一座小型、非宗派、基要主义的教会，全然顺服上帝的旨意及其使者逾越节天使。
+                                        我们是一座小型、非宗派、基要主义的教会，全然顺服上帝的旨意及其使者逾越天使。
                                     </p></div>
                                     <div class="lang-en"><p>
                                         We believe that the End Times are near. Soon God will return to the world, through his messenger the Passover Angel, in order to cleanse the world of sin and restore righteousness through the Rapture.
                                     </p></div><div class="lang-zh"><p>
-                                        我们相信末世已近。上帝不久将借其使者逾越节天使重返世界，洁净罪恶，并通过被提恢复公义。
+                                        我们相信末世已近。上帝不久将借其使者逾越天使重返世界，洁净罪恶，并通过被提恢复公义。
                                     </p></div>
                                     <div class="lang-en"><p>
                                         Many churches will tell you that the Rapture was foretold by John in the Book of Revelations, but they are deceived. Only those who follow the true words of God's Angel will be redeemed, and so we must all repent if we hope to be saved.
@@ -51,7 +51,7 @@ ABOUT_NEWS = """                                <div class="news">
                                     <div class="lang-en"><p>
                                         Donate to our Church now and receive <a href="book.html"><u>The Book of the Passover Angel</u></a> to learn more.  Redeem yourself now before our Lord, before it is too late!
                                     </p></div><div class="lang-zh"><p>
-                                        请立即向本教会捐助，并领取<a href="book.html"><u>《逾越节天使之书》</u></a>以了解更多。趁还来得及，在主面前赎回自己！
+                                        请立即向本教会捐助，并领取<a href="book.html"><u>《逾越天使之书》</u></a>以了解更多。趁还来得及，在主面前赎回自己！
                                     </p></div>
                                     <div class="lang-en"><p>
                                         "Boast not thyself of to morrow; for thou knowest not what a day may bring forth." (Proverbs 27:1)
