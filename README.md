@@ -1,6 +1,6 @@
 # Ladybug, Ladybug, Fly Away Home 中文汉化版
 
-**[点击这里在线访问网页道具](https://sylz25.github.io/ladybug/)**
+**[点击这里在线访问Github Page](https://sylz25.github.io/ladybug/)**
 
 ---
 
